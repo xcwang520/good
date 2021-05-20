@@ -31,5 +31,4 @@ svg.addEventListener('mouseenter', function(){ animation13.beginElement(); });
 var animation14 = document.getElementById('animate14'); 
 svg.addEventListener('mouseenter', function(){
   animation14.beginElement(); 
-  alert(1)
 });
