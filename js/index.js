@@ -29,4 +29,7 @@ svg.addEventListener('mouseenter', function(){ animation12.beginElement(); });
 var animation13 = document.getElementById('animate13'); 
 svg.addEventListener('mouseenter', function(){ animation13.beginElement(); });
 var animation14 = document.getElementById('animate14'); 
-svg.addEventListener('mouseenter', function(){ animation14.beginElement(); });
+svg.addEventListener('mouseenter', function(){
+  animation14.beginElement(); 
+  alert(1)
+});
